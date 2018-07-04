@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.blue-heading {
+	color: blue;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cat {
+	margin-left: 20px;
+	width: 200px;
+}
+
+.svg {
+	width: 400px;
+	height: 400px;
+}
+
+.circle {
+	stroke-width: 3px;
+	stroke: #edf8b1;
+	fill: #2c7fb8;
+}

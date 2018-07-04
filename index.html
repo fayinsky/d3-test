@@ -1,16 +1,25 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="hello world.css">
 </head>
 <body>
 	<div class="blue-heading">Hello World!</div>
 	<div>This is just a <span class="blue-heading">test<span>.</div>
-	<div><img class="cat" src="http://placekitten.com/400/500"></div>
+	<div>
+		<img id="cat_img" class="cat" src="http://placekitten.com/400/500">
+		<button id="feed_cat_button">Feed Cat</button>
+	</div>
 	<div>
 		<svg class="svg">
-			<circle class="circle" cx="25" cy="25" r="15"></circle>
+			<circle class="singlecircle" cx="25" cy="25" r="15"></circle>
 		</svg>
 	</div>
+	<div><h1>The Wealth & Health of Nations</h1></div>
+	<div id="svg_div"></div>
+	<div id="controls"></div>
+	
+	<script src="main.js"></script>
 </body>
 </html>

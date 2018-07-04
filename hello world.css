@@ -21,8 +21,13 @@ body {
 	height: 400px;
 }
 
-.circle {
+.singlecircle {
 	stroke-width: 3px;
 	stroke: #edf8b1;
 	fill: #2c7fb8;
+}
+
+.axis {
+	font-family: 'Raleway', sans-serif;
+	font-size： 15px;
 }
